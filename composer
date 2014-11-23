@@ -1,0 +1,2 @@
+#!/bin/sh
+hhvm -v Http.SlowQueryThreshold=30000 -v ResourceLimit.SocketDefaultTimeout=30 -v Eval.Jit=false /opt/composer.phar
